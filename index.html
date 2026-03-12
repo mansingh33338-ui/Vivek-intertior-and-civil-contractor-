@@ -1,223 +1,189 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE html><html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Vivek Interior & Civil Contractor | Mumbai</title><link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet"><style>
+*{margin:0;padding:0;box-sizing:border-box;font-family:'Poppins',sans-serif;}
+body{background:#f5f5f5;color:#333;}
 
-<title>Vivek Interior & Civil Contractor</title>
-
-<style>
-
-body{
-font-family: Arial, sans-serif;
-margin:0;
-background:#f4f4f4;
-}
-
+/* Header */
 header{
 background:#111;
-color:white;
-text-align:center;
-padding:20px;
-}
-
-nav{
-background:#333;
-padding:12px;
-text-align:center;
-}
-
-nav a{
-color:white;
-margin:0 15px;
-text-decoration:none;
-font-weight:bold;
-}
-
-.hero{
-background:#e5e5e5;
-padding:60px 20px;
-text-align:center;
-}
-
-.section{
-padding:50px 20px;
-text-align:center;
-}
-
-.services{
+color:#fff;
 display:flex;
-flex-wrap:wrap;
+justify-content:space-between;
+align-items:center;
+padding:18px 25px;
+}
+header h2{font-weight:600;}
+nav a{
+color:#fff;
+margin-left:18px;
+text-decoration:none;
+font-size:14px;
+}
+
+/* Hero */
+.hero{
+height:65vh;
+background:url('https://images.unsplash.com/photo-1600585154340-be6161a56a0c') center/cover no-repeat;
+display:flex;
+align-items:center;
 justify-content:center;
+text-align:center;
+color:#fff;
+}
+.hero div{
+background:rgba(0,0,0,0.6);
+padding:30px;
+border-radius:10px;
+}
+.hero h1{font-size:34px;}
+.hero p{margin-top:10px;font-size:18px;}
+.hero a{
+display:inline-block;
+margin-top:20px;
+background:#25D366;
+color:#fff;
+padding:14px 22px;
+border-radius:30px;
+text-decoration:none;
+font-weight:600;
+}
+
+/* Sections */
+.section{
+padding:60px 20px;
+max-width:1100px;
+margin:auto;
+text-align:center;
+}
+.section h2{margin-bottom:30px;font-size:28px;}
+
+/* Services */
+.services{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
 gap:20px;
 }
-
 .card{
-background:white;
-padding:20px;
-width:220px;
+background:#fff;
+padding:25px;
 border-radius:10px;
-box-shadow:0 3px 10px rgba(0,0,0,0.1);
+box-shadow:0 4px 10px rgba(0,0,0,0.1);
 }
 
+/* Gallery */
 .gallery{
-display:flex;
-flex-wrap:wrap;
-justify-content:center;
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
 gap:15px;
 }
-
 .gallery img{
-width:260px;
-height:180px;
+width:100%;
+height:200px;
 object-fit:cover;
 border-radius:8px;
 }
 
-form{
-max-width:400px;
-margin:auto;
-display:flex;
-flex-direction:column;
-gap:10px;
-}
-
-input, textarea{
-padding:10px;
-border-radius:5px;
-border:1px solid #ccc;
-}
-
-button{
+/* CTA */
+.cta{
 background:#111;
-color:white;
-padding:12px;
-border:none;
-border-radius:5px;
-cursor:pointer;
+color:#fff;
+text-align:center;
+padding:50px 20px;
 }
+.cta a{
+display:inline-block;
+margin:10px;
+padding:14px 22px;
+border-radius:30px;
+text-decoration:none;
+font-weight:600;
+}
+.call-btn{background:#fff;color:#111;}
+.whatsapp-btn{background:#25D366;color:#fff;}
 
+/* Footer */
 footer{
 background:#111;
-color:white;
+color:#aaa;
 text-align:center;
 padding:20px;
+font-size:14px;
 }
 
+/* Floating WhatsApp */
 .whatsapp{
 position:fixed;
 bottom:20px;
 right:20px;
 background:#25D366;
-color:white;
+color:#fff;
 padding:14px 18px;
 border-radius:50px;
 text-decoration:none;
-font-weight:bold;
+font-weight:600;
+box-shadow:0 4px 10px rgba(0,0,0,0.2);
 }
-
-</style>
-</head>
-
-<body>
-
-<header>
-<h1>VIVEK INTERIOR & CIVIL CONTRACTOR</h1>
-<p>Transforming Spaces Into Dreams</p>
-</header>
-
+</style></head><body><header>
+<h2>Vivek Interior</h2>
 <nav>
 <a href="#services">Services</a>
-<a href="#gallery">Projects</a>
+<a href="#projects">Projects</a>
 <a href="#contact">Contact</a>
 </nav>
-
-<div class="hero">
-<h2>Interior Design & Civil Work in Mumbai</h2>
-<p>Professional Home Interior, Renovation & Construction Services</p>
+</header><section class="hero">
+<div>
+<h1>Premium Interior Design & Civil Work</h1>
+<p>Home • Office • Renovation • Modular Kitchen</p>
+<a href="https://wa.me/918286515676">Get Free Quote on WhatsApp</a>
 </div>
-
-<section id="services" class="section">
-
+</section><section id="services" class="section">
 <h2>Our Services</h2>
-
 <div class="services">
-
 <div class="card">Interior Design</div>
 <div class="card">Modular Kitchen</div>
 <div class="card">Civil Construction</div>
 <div class="card">Home Renovation</div>
 <div class="card">False Ceiling</div>
 <div class="card">Painting</div>
-
 </div>
-
-</section>
-
-<section id="gallery" class="section">
-
-<h2>Our Work</h2>
-
+</section><section class="section">
+<h2>Why Choose Us</h2>
+<div class="services">
+<div class="card">✔ 10+ Years Experience</div>
+<div class="card">✔ Affordable Pricing</div>
+<div class="card">✔ Quality Materials</div>
+<div class="card">✔ On-Time Project Delivery</div>
+</div>
+</section><section id="projects" class="section">
+<h2>Recent Projects</h2>
 <div class="gallery">
-
-<img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c">
 <img src="https://images.unsplash.com/photo-1600210492493-0946911123ea">
-<img src="https://images.unsplash.com/photo-1598928506311-c55ded91a20c">
 <img src="https://images.unsplash.com/photo-1600607687920-4e2a09cf159d">
-<img src="https://images.unsplash.com/photo-1600573472591-ee6b68d14c68">
 <img src="https://images.unsplash.com/photo-1600047509782-20d39509f26d">
-<img src="https://images.unsplash.com/photo-1600607687644-c7171b42498a">
+<img src="https://images.unsplash.com/photo-1600573472591-ee6b68d14c68">
 <img src="https://images.unsplash.com/photo-1586023492125-27b2c045efd7">
 <img src="https://images.unsplash.com/photo-1600210491892-03d54c0aaf87">
-<img src="https://images.unsplash.com/photo-1600210492486-724fe5c67fb3">
-
 </div>
-
-</section>
-
-<section class="section">
-
-<h2>Location</h2>
-
-<iframe
-width="100%"
-height="350"
-style="border:0"
-loading="lazy"
-allowfullscreen
+</section><section id="contact" class="section">
+<h2>Our Location</h2>
+<p>Ranuja Ramdev Park Type C<br>
+Indralok Phase 4<br>
+Mumbai 401105</p>
+<br>
+<iframe width="100%" height="350" style="border:0"
 src="https://www.google.com/maps?q=Ranuja+Ramdev+Park+Type+C+Indralok+Phase+4+Mumbai+401105&output=embed">
 </iframe>
-
-</section>
-
-<section id="contact" class="section">
-
-<h2>Contact Us</h2>
-
-<p>📍 Ranuja Ramdev Park Type C Indralok Phase 4 Mumbai 401105</p>
-<p>📞 WhatsApp: 8286515676</p>
-
-<form action="https://formsubmit.co/youremail@example.com" method="POST">
-
-<input type="text" name="name" placeholder="Your Name" required>
-
-<input type="email" name="email" placeholder="Your Email" required>
-
-<textarea name="message" placeholder="Your Message"></textarea>
-
-<button type="submit">Send Message</button>
-
-</form>
-
-</section>
-
-<a class="whatsapp" href="https://wa.me/918286515676">
-Chat on WhatsApp
-</a>
+</section><section class="cta">
+<h2>Need Interior Work?</h2>
+<p>Contact us today for a free consultation.</p>
+<a class="call-btn" href="tel:8286515676">Call Now</a>
+<a class="whatsapp-btn" href="https://wa.me/918286515676">WhatsApp</a>
+</section><a class="whatsapp" href="https://wa.me/918286515676">WhatsApp</a>
 
 <footer>
 © 2026 Vivek Interior & Civil Contractor
-</footer>
-
-</body>
-</html>
+</footer></body>
+  </html>
